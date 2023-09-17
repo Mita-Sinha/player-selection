@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select Five Players</title>
-    <!-- tailwind cdn link -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +41,80 @@
     </header>
 
 
+    <!-- main Section -->
+    <main class="mt-14">
+        <section class="flex space-x-6 conatiner w-9/12 mx-auto">
+            <!--Players-card-Section Start -->
+            <div class="w-3/4">
+                <!-- card-Row-1  -->
+                <div class="grid grid-cols-3 text-white gap-6 text-center">
+                    <!-- card 1 player-->
+                    <div class="card bg-slate-700 h-100">
+                        <div>
+                            <img src="./images/player-1.png" alt="image" />
+                        </div>
 
+                        <div class="player-info mt-2">
+                            <h3 class="player-name font-meduim text-yellow-300 text-2xl">
+                                Neymar Jr
+                            </h3>
+                            <div class="flex mt-2 justify-around w-10/12 mx-auto justify-center items-center">
+                                <p>36 Goals</p>
+                                <p>120 asists</p>
+                            </div>
+                            <button class="bg-sky-300 hover:bg-blue-700 text-white mt-2 mb-4 py-2 px-8 rounded-sm">
+                                Select
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <!-- card 2 player-->
+                    <div class="card bg-slate-700 h-100">
+                        <div>
+                            <img src="./images/player-2.png" alt="image" />
+                        </div>
+
+                        <div class="player-info mt-2">
+                            <h3 class="player-name font-meduim text-yellow-300 text-2xl">
+                                Lionel Messi
+                            </h3>
+                            <div class="flex mt-2 justify-around w-10/12 mx-auto justify-center items-center">
+                                <p>36 Goals</p>
+                                <p>120 asists</p>
+                            </div>
+                            <button class="bg-sky-300 hover:bg-blue-700 text-white mt-2 mb-4 py-2 px-8 rounded-sm">
+                                Select
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- card 3 player-->
+                    <div class="card bg-slate-700 h-100">
+                        <div>
+                            <img src="./images/player-3.png" alt="image" />
+                        </div>
+
+                        <div class="player-info mt-2">
+                            <h3 class="player-name font-meduim text-yellow-300 text-2xl">
+                                Cristiano Ronaldo
+                            </h3>
+                            <div class="flex mt-2 justify-around w-10/12 mx-auto justify-center items-center">
+                                <p>36 Goals</p>
+                                <p>120 asists</p>
+                            </div>
+                            <button class="bg-sky-300 hover:bg-blue-700 text-white mt-2 mb-4 py-2 px-8 rounded-sm">
+                                Select
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Players-card-Section Ends -->
+
+        </section>
+    </main>
 
 </body>
 
