@@ -14,4 +14,6 @@ body {
     background-image: linear-gradient(rgba(167, 231, 216, 0.192), rgba(230, 82, 200, 0.219)), url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
