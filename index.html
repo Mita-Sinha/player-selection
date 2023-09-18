@@ -24,7 +24,7 @@
         <section class="banner-image">
             <div class="text-white text-center py-48">
                 <h1 id="h1-font" class="text-6xl font-medium">
-                    Selection Your Best Five Players
+                    Select your favorite five players in football
                 </h1>
                 <p class="w-8/12 mx-auto font-medium mt-6">
                     Football is a well-known sport all around the world. The game of football develops in the players a fair mind, team effort, and
@@ -257,6 +257,35 @@
                     <h1 class="mt-4">Selected - Five</h1>
                     <hr class="w-9/12 mx-auto mb-4" />
                     <ol class="list-decimal text-start pl-8" id="player-container"></ol>
+                </div>
+
+                <div class="grid grid-row-1 bg-slate-700 mt-6 border-2 p-2 pb-4">
+                    <h1 class="text-white mt-4">Budget</h1>
+                    <hr class="w-9/12 mx-auto mb-6" />
+                    <form class="text-white">
+                        <div class="flex justify-center items-center">
+                            <label class="pr-2">Per Player : </label>
+                            <input id="per-player" class="text-white bg-transparent border-2 w-32 h-10 rounded" type="text" />
+                        </div>
+                        <input style="background-color: #0380eee1" class="input-button mt-6 h-10 w-full" type="button" value="calculate "
+                            id="calculate" />
+                        <div class="text-start mt-6 mb-6">
+                            Player Expense : $ <span id="player-expense">00</span>
+                        </div>
+                        <div class="flex mt-6 justify-center items-center">
+                            <label class="pr-2">Manager : </label>
+                            <input id="manager" class="text-white bg-transparent border-2 w-32 h-10 rounded" type="text" />
+                        </div>
+                        <div class="flex mt-6 justify-center items-center">
+                            <label class="pr-2">Coach : </label>
+                            <input id="coach" class="text-white bg-transparent border-2 w-32 h-10 rounded" type="text" />
+                        </div>
+                        <input id="calculate-total" style="background-color: #0380eee1" class="input-button mt-6 h-10 w-full" type="button"
+                            value="Calculate total" />
+                        <div class="mt-6">
+                            Total : $ <span id="displayTotal">00</span>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
